@@ -3,7 +3,8 @@ var playlist = {
   };
 
   function updatePlaylist(playlist, artistName, songTitle) {
-    playlist.philOchs = ["My Bloody Valentine"];
+    var playlist = new Object =({artistName: 'Slowdive', 'My Bloody Valentine',
+ and 'Phil Ochs'});
     return playlist
   }
 
