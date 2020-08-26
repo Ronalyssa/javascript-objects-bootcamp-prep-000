@@ -1,13 +1,13 @@
 var playlist = {
-    artistNames: 'songs titles'
+    artistName: 'songTitle'
   };
 
-  function updatePlaylist(object, key, value) {
-    playlist.artistNames2 = ["song titles2"];
+  function updatePlaylist(playlist, artistName, songTitle) {
+    playlist.philOchs = ["My Bloody Valentine"];
     return playlist
   }
 
-  function removeFromPlaylist(object, key) {
-    delete playlist.artistNames;
+  function removeFromPlaylist(playlist, artistName) {
+    delete playlist.artistName;
     return playlist
   }
